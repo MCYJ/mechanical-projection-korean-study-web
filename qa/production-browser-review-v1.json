@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-28T05:32:26.566Z",
+  "productionHttps": true,
+  "koreanDesktopDirectVisualReview": true,
+  "englishMobileDirectVisualReview": true,
+  "languageSwitchActuallyClicked": true,
+  "miniNoteActualKeyboardAction": {
+    "images": true,
+    "language": "en",
+    "noStoreLinks": true,
+    "overflow": false,
+    "summary": "(2,1,2) → XZ(2,2) / XY(2,1) / YZ(1,2)",
+    "url": "https://mcyj.github.io/mechanical-projection-korean-study-web/en/"
+  },
+  "guideDisclosureActuallyClicked": {
+    "answer": "No. The eight-cell and seven-cell example is a counterexample.",
+    "overflow": false,
+    "url": "https://mcyj.github.io/mechanical-projection-korean-study-web/en/guides/same-views-different-solids/"
+  },
+  "temporaryViewportReset": true,
+  "physicalDeviceClaimed": false,
+  "appStoreAvailability": "coming_soon"
+}

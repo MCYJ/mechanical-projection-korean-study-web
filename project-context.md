@@ -14,3 +14,9 @@
 - 한국어/영어 각10개 독자 가이드, 기능/흐름/공식출처/FAQ/지원/문의/개인정보/이용/404를 구현했다. 실제 빌드8 화면3개와 검토한 제도 그림 아이콘만 재사용했다. 앱은행·서명·앱 소스는 없다.
 -42HTML/41indexable routes, 내부링크1048, canonical/hreflang/alt/구조화데이터·미검증Store링크0·전송폼0·JS네트워크/저장0 검사를 통과했다. Chrome390px40페이지 가로넘침/깨진이미지0,320px가이드해설과좌표(2,1,2)→XZ(2,2)/XY(2,1)/YZ(1,2)를 실제키보드로 확인했다. 입력컨테이너를 전송없는group으로 바꾼 뒤4관련페이지와기능을재확인했다. 임시viewport는복구했다.
 - 출시는준비중이며 실제배포/HTTPS운영검증은 다음 게이트다.
+
+## 2026-10-28 운영 게시 검증
+- 공개 전용 저장소 https://github.com/MCYJ/mechanical-projection-korean-study-web 와 GitHub Pages https://mcyj.github.io/mechanical-projection-korean-study-web/ 를 게시했다. 앱 원본 저장소 가시성은 변경하지 않았다.
+- 첫 배포는 Pages 활성화 이전 configure-pages가 실행돼 실패했다. 활성화를 직접 확인한 뒤 동일 커밋5e2efd11be8eb8968248fd91a5513c29393c0d61/동일 run40637670523의두번째시도 성공을 확인했다. 실패 원본을 보존했다.
+- 인증된 원격 소스20파일과 로컬blob일치, 실제HTTPS50리소스 전체바이트와404상태/본문을 확인했다. 운영Chrome한국어데스크톱·영어모바일·실제언어전환·키보드좌표예제·가이드해설을 확인했다. 임시viewport는복구했다. 최초이미지초기페인트는스크롤후실제로표시됨을직접점검했다.
+- 앱은 출시준비중으로표시한다. 앱심사승인·공개를주장하지않으며다운로드링크는0이다. 검증 qa/production-summary-v1.json 및qa/production-browser-review-v1.json. 이문서/QA추가는사이트빌드입력을바꾸지않는다.

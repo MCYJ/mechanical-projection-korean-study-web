@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-28T05:32:39.916418+00:00",
+  "repository": "MCYJ/mechanical-projection-korean-study-web",
+  "repositoryUrl": "https://github.com/MCYJ/mechanical-projection-korean-study-web",
+  "publicUrl": "https://mcyj.github.io/mechanical-projection-korean-study-web/",
+  "deployedCommit": "5e2efd11be8eb8968248fd91a5513c29393c0d61",
+  "workflowRun": {
+    "id": 40637670523,
+    "status": "completed",
+    "conclusion": "success",
+    "head_sha": "5e2efd11be8eb8968248fd91a5513c29393c0d61",
+    "html_url": "https://github.com/MCYJ/mechanical-projection-korean-study-web/actions/runs/40637670523",
+    "run_attempt": 2
+  },
+  "authenticatedSourceFiles": 20,
+  "exactRemoteSourceTreeMatched": true,
+  "all50ProductionResourceBytesMatched": true,
+  "custom404BodyAndStatusVerified": true,
+  "storeAvailability": "coming_soon",
+  "storeWrites": 0,
+  "browserProductionQaPending": false,
+  "serviceId": "hrdk-0472",
+  "status": "production_verified_prelaunch_website",
+  "productionBrowserVerified": true,
+  "all40LocalMobilePagesNoOverflow": true,
+  "sourcePictogramAndActualNative8Screens": true,
+  "questionBankOrSigningFilesPublic": false,
+  "privateAppRepositoryVisibilityChanged": false,
+  "appApprovalClaimed": false,
+  "browserProofSha256": "9c6997308884620e8a2382667d396e0d6096dbbfa3ff182ed58b0089677d9aca"
+}
