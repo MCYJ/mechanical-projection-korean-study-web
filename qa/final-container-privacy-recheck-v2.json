@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-28T05:21:46.549Z",
+  "changes": "Non-submitting group replaces form; privacy wording specifies message-submission forms",
+  "pageChecks": [
+    {
+      "forms": 0,
+      "h1": 1,
+      "overflow": false,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/ko/"
+    },
+    {
+      "forms": 0,
+      "h1": 1,
+      "overflow": false,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/en/"
+    },
+    {
+      "forms": 0,
+      "h1": 1,
+      "overflow": false,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/ko/privacy/"
+    },
+    {
+      "forms": 0,
+      "h1": 1,
+      "overflow": false,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/en/privacy/"
+    }
+  ],
+  "coordinateProof": {
+    "containerRole": "group",
+    "summary": "(2,1,2) → XZ(2,2) / XY(2,1) / YZ(1,2)"
+  },
+  "viewportReset": true
+}

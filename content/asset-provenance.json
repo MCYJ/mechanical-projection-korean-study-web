@@ -1,0 +1,34 @@
+[
+  {
+    "source": "EA14E87C-BF64-4057-9E33-D2824805CAFE.png",
+    "file": "assets/projection.png",
+    "sha256": "ee1d50afb4338b602969a566ea7b932ee9ee9b3bf77a4a0b728dfc00a0aa0368",
+    "sameActualNativeBuild": 8,
+    "artificialAppScreen": false,
+    "sourceKind": "Actual build8 simulator capture or reviewed subject pictogram master"
+  },
+  {
+    "source": "E3756592-7FB2-4043-A007-86DA39E93B90.png",
+    "file": "assets/layers.png",
+    "sha256": "e916a545854026d64dc913d3863ca80f8470926bcd43be936868aa72adbd59bf",
+    "sameActualNativeBuild": 8,
+    "artificialAppScreen": false,
+    "sourceKind": "Actual build8 simulator capture or reviewed subject pictogram master"
+  },
+  {
+    "source": "29989297-2352-4CE3-AE0D-2A71B08A8702.png",
+    "file": "assets/saved-cases.png",
+    "sha256": "c2309c3cd4b6af746cfec376138de8e32b14651bf92748d7f7d89833858a1129",
+    "sameActualNativeBuild": 8,
+    "artificialAppScreen": false,
+    "sourceKind": "Actual build8 simulator capture or reviewed subject pictogram master"
+  },
+  {
+    "source": "Icon-App-1024x1024@1x.png",
+    "file": "assets/icon.png",
+    "sha256": "d6f60a1f8f87b93b218d435190a4c2c0a7b2afe3daf4719cbd1c74cbe71b79e3",
+    "sameActualNativeBuild": 8,
+    "artificialAppScreen": false,
+    "sourceKind": "Actual build8 simulator capture or reviewed subject pictogram master"
+  }
+]

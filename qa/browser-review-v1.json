@@ -1,0 +1,440 @@
+{
+  "at": "2026-10-28T05:18:49.353Z",
+  "actualBrowser": "Chrome",
+  "localOnly": true,
+  "viewport390PageChecks": [
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/ko/guides/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "ko",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/ko/guides/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/ko/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "ko",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/ko/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/ko/features/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "ko",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/ko/features/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/ko/study-flow/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "ko",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/ko/study-flow/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/ko/exam/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "ko",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/ko/exam/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/ko/faq/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "ko",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/ko/faq/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/ko/guides/axes-and-cells/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "ko",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/ko/guides/axes-and-cells/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/ko/guides/three-occupancy-projections/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "ko",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/ko/guides/three-occupancy-projections/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/ko/guides/change-one-cell/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "ko",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/ko/guides/change-one-cell/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/ko/guides/same-views-different-solids/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "ko",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/ko/guides/same-views-different-solids/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/ko/guides/saved-cases-a-b/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "ko",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/ko/guides/saved-cases-a-b/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/ko/guides/layer-by-layer/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "ko",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/ko/guides/layer-by-layer/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/ko/guides/counting-without-units/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "ko",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/ko/guides/counting-without-units/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/ko/guides/review-the-reason/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "ko",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/ko/guides/review-the-reason/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/ko/guides/offline-records/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "ko",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/ko/guides/offline-records/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/ko/guides/official-scope/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "ko",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/ko/guides/official-scope/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/ko/support/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "ko",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/ko/support/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/ko/contact/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "ko",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/ko/contact/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/ko/privacy/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "ko",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/ko/privacy/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/ko/terms/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "ko",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/ko/terms/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/en/guides/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "en",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/en/guides/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/en/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "en",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/en/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/en/features/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "en",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/en/features/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/en/study-flow/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "en",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/en/study-flow/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/en/exam/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "en",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/en/exam/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/en/faq/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "en",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/en/faq/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/en/guides/axes-and-cells/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "en",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/en/guides/axes-and-cells/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/en/guides/three-occupancy-projections/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "en",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/en/guides/three-occupancy-projections/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/en/guides/change-one-cell/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "en",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/en/guides/change-one-cell/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/en/guides/same-views-different-solids/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "en",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/en/guides/same-views-different-solids/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/en/guides/saved-cases-a-b/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "en",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/en/guides/saved-cases-a-b/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/en/guides/layer-by-layer/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "en",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/en/guides/layer-by-layer/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/en/guides/counting-without-units/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "en",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/en/guides/counting-without-units/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/en/guides/review-the-reason/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "en",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/en/guides/review-the-reason/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/en/guides/offline-records/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "en",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/en/guides/offline-records/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/en/guides/official-scope/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "en",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/en/guides/official-scope/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/en/support/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "en",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/en/support/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/en/contact/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "en",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/en/contact/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/en/privacy/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "en",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/en/privacy/",
+      "width": 390
+    },
+    {
+      "canonical": "https://mcyj.github.io/mechanical-projection-korean-study-web/en/terms/",
+      "clientWidth": 375,
+      "h1": 1,
+      "images": true,
+      "lang": "en",
+      "scrollWidth": 375,
+      "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/en/terms/",
+      "width": 390
+    }
+  ],
+  "all40NoHorizontalOverflow": true,
+  "guide320": {
+    "answer": "No. The eight-cell and seven-cell example is a counterexample.",
+    "h1": "Why eight and seven cells can share the same views",
+    "overflow": false,
+    "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/en/guides/same-views-different-solids/",
+    "width": 320
+  },
+  "miniNote320": {
+    "overflow": false,
+    "summary": "(2,1,2) → XZ(2,2) / XY(2,1) / YZ(1,2)",
+    "url": "http://127.0.0.1:8768/mechanical-projection-korean-study-web/ko/",
+    "views": [
+      {
+        "id": "front",
+        "label": "X2 Z2",
+        "selected": 2
+      },
+      {
+        "id": "top",
+        "label": "X2 Y1",
+        "selected": 5
+      },
+      {
+        "id": "right",
+        "label": "Y1 Z2",
+        "selected": 1
+      }
+    ]
+  },
+  "desktopKoreanAndEnglishDirectVisualReview": true,
+  "temporaryViewportReset": true,
+  "productionQa": false
+}

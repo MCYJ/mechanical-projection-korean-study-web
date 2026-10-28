@@ -1,0 +1,38 @@
+{
+  "audience": "한국어 전산응용기계제도기능사 선택 기초를 복습하는 독립 학습자",
+  "examMarket": "한국",
+  "searchIntent": "투상 기초와 입체 좌표를 이해하고 기기 내에서 문제·해설을 복습",
+  "primaryKeyword": "전산응용기계제도기능사 학습",
+  "secondaryKeywords": [
+    "입체 좌표",
+    "투영 비교",
+    "오프라인 복습"
+  ],
+  "verifiedValueProposition": "새8 양기기 검증된3×3×3 층편집·세 방향 채움 투영·독립 A/B·500원작문항·Lock50·오프라인 저장",
+  "differentiation": "이 시험의 도면·모델 기초에 한정한 입체/좌표 노트. 공통 문제UI 외에 직접 편집·저장·비교하는 고유 학습 도구",
+  "claimEvidence": "Exact build8 source146/isolation7, paired simulator offline/core/workshop/persistence QA and reviewed actual native screens; detailed signed-app evidence retained privately.",
+  "candidateCopies": [
+    {
+      "title": "전산제도 입체·좌표 학습",
+      "subtitle": "입체를 바꾸며 세 방향으로 읽는 연습"
+    },
+    {
+      "title": "전산응용기계제도 학습 노트",
+      "subtitle": "가상 격자로 비교하고 독립 사례를 저장"
+    },
+    {
+      "title": "기계제도 투영 기초 노트",
+      "subtitle": "한국어 문제·해설·복습을 오프라인으로"
+    }
+  ],
+  "selectedCandidate": 0,
+  "selectionRationale": "실제 고유 기능인 입체/좌표와 독립 학습을 명확히 표현하며 CAD/공식실기/전범위·합격보장 표현을 피한다. 스토어 이름 변경을 실행하는 문서가 아니다.",
+  "verifiedAt": "2026-10-28T05:00:21.542532+00:00",
+  "status": "reviewed_against_current_source_and_actual_native_screens_website_copy_only",
+  "appRuntimeLanguage": "ko",
+  "websiteLocales": [
+    "ko",
+    "en"
+  ],
+  "storeApprovalClaimed": false
+}

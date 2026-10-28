@@ -1,0 +1,183 @@
+{
+  "status": "passed_static_site_structure_and_release_claim_checks",
+  "htmlFiles": 42,
+  "indexableRoutes": 41,
+  "guideLocales": [
+    "ko",
+    "en"
+  ],
+  "guidesPerLocale": 10,
+  "resolvedLocalLinks": 1048,
+  "allImagesHaveAlt": true,
+  "allLanguagePageCanonicalAndHreflangVerified": true,
+  "unverifiedDownloadLinks": 0,
+  "messageSubmissionForms": 0,
+  "siteJavaScriptNetworkOrPersistenceCalls": 0,
+  "privateAppOrSigningFiles": 0,
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "c241385a30942107688b2d4832a27de47db8ea190a31754affc8133b5bfef4e9"
+    },
+    {
+      "path": "ko/index.html",
+      "sha256": "f7754b607f557efcb80316897157f6226bc119c4911e1b3187a1c6659d7b0f04"
+    },
+    {
+      "path": "en/index.html",
+      "sha256": "723142b8df69b5e793cbd7a4e341c747921b277079f37551313258adcbfff93a"
+    },
+    {
+      "path": "en/contact/index.html",
+      "sha256": "17f822b76745c0121a1efe7bcd8cfd071ecb7459a708331e04954e878f3fedd2"
+    },
+    {
+      "path": "en/privacy/index.html",
+      "sha256": "8764ca76a7f366281010c6fa42fa277f7a1b26d884a8b26a874818bee5ab675d"
+    },
+    {
+      "path": "en/faq/index.html",
+      "sha256": "0c874590bba22337a767b10dac58c20bb526a45b6daa88ba65aa44e9ee5dbf57"
+    },
+    {
+      "path": "en/features/index.html",
+      "sha256": "c286baa30e62c329cf8a6653d70b040bd813f064a40185e48277f9a49807c1c6"
+    },
+    {
+      "path": "en/terms/index.html",
+      "sha256": "e9c161f839ddf5753ac07aac5bbf7202c725ee4cbb5b624a86a564268a3497a0"
+    },
+    {
+      "path": "en/study-flow/index.html",
+      "sha256": "b7b30432ba9b6a22c94b92e7e9ce20d526955f116335adedc516c43e2290c416"
+    },
+    {
+      "path": "en/support/index.html",
+      "sha256": "84bd9399c876e133de2eba651b4e4c0763e05b9b22b3f396a0410eebf1d9e445"
+    },
+    {
+      "path": "en/guides/index.html",
+      "sha256": "8de83fc4fece6893fb6a03a46cad4691f9e7171c6901bb9bb8e0727ee76bc232"
+    },
+    {
+      "path": "en/exam/index.html",
+      "sha256": "008bc77dd10bf4d61c91295b745d28af7199257d3090d29c8f6b302955b8ab53"
+    },
+    {
+      "path": "en/guides/layer-by-layer/index.html",
+      "sha256": "90b750cd31b64796ab114eaeb5035a5461585bf49978316e820d96097d7e4e0a"
+    },
+    {
+      "path": "en/guides/same-views-different-solids/index.html",
+      "sha256": "93743d35935d9096b1ebe6b5d9bc89b7c6206b25e094c78421c29d41393b2ff8"
+    },
+    {
+      "path": "en/guides/axes-and-cells/index.html",
+      "sha256": "a9b447aff4a0a4244a7effbd447924e02d5062d5808377661c053bc43a139f45"
+    },
+    {
+      "path": "en/guides/review-the-reason/index.html",
+      "sha256": "8ec8dea0d9ef303b2f1227858801835e3a321517f8ecea2f365b459dba45ec9c"
+    },
+    {
+      "path": "en/guides/three-occupancy-projections/index.html",
+      "sha256": "fab8135469c48b108d61772b1e4fa9d0325827481ecbec6cceeaef433a122000"
+    },
+    {
+      "path": "en/guides/official-scope/index.html",
+      "sha256": "44287ac50922755f32bc9413c66c851435b1ab7bb87a18f7fa8a7ca37be24708"
+    },
+    {
+      "path": "en/guides/saved-cases-a-b/index.html",
+      "sha256": "c42e7a29cf43df80f7e6ffdee6151460fbb726140124e94869e4aac2dbb0b018"
+    },
+    {
+      "path": "en/guides/change-one-cell/index.html",
+      "sha256": "248c7953d9ba03479d7b31494b6a1e0a9fc92e47f851dc7b1930a4bb94b63ff6"
+    },
+    {
+      "path": "en/guides/offline-records/index.html",
+      "sha256": "e3f4c05c35d64135bfc23298e52ca83789522477c9d3f450c18e271de896c711"
+    },
+    {
+      "path": "en/guides/counting-without-units/index.html",
+      "sha256": "6ad1f73031e069633eeac8dfc518e7ab326f4d9c25807778bdf4d5ea66a60945"
+    },
+    {
+      "path": "ko/contact/index.html",
+      "sha256": "63821e85d7413733cdb993cd38a54697dd91e76d16d450359cef450e69f09f1e"
+    },
+    {
+      "path": "ko/privacy/index.html",
+      "sha256": "17919daf9f71c87ac770e2cb9efac3cbcbe7161eff117829609d7faea4daff6f"
+    },
+    {
+      "path": "ko/faq/index.html",
+      "sha256": "da48752a6ec9011140ee68f1b1490bf9b03f7e858663ecb99d7897737e32d4da"
+    },
+    {
+      "path": "ko/features/index.html",
+      "sha256": "d9d3b9fe600b410164c15fa8778f35aaf3a6acbcda4aed94ae1978b83b1b04dc"
+    },
+    {
+      "path": "ko/terms/index.html",
+      "sha256": "cfde49c061a518078a699d7a1e1f56ca3396f1e79857ce648f8278afe1b6ec26"
+    },
+    {
+      "path": "ko/study-flow/index.html",
+      "sha256": "f4ace97dca1178900995ec4a36162b5038c553052bf03ffec31a1ee7b259167f"
+    },
+    {
+      "path": "ko/support/index.html",
+      "sha256": "13fae6781c0e3140bb5936e67c303eaadd186674a24db0db00566e6e77ecbae5"
+    },
+    {
+      "path": "ko/guides/index.html",
+      "sha256": "65668771111c66d16ba21552e730e1b435699c9e01dcf42b541615e923093d7f"
+    },
+    {
+      "path": "ko/exam/index.html",
+      "sha256": "1afa9c98f5b4bd3f600634dee8da53aa03fe4366d1f2bc225483e480b427bdce"
+    },
+    {
+      "path": "ko/guides/layer-by-layer/index.html",
+      "sha256": "3698337c0d3b72acf70a7cfd230a62c25fb6a51030d1b6aa9766bb1a0b733dc2"
+    },
+    {
+      "path": "ko/guides/same-views-different-solids/index.html",
+      "sha256": "b56cdf64e789f58ce45a335e5017d4fee91178faa96984a9763fab9953ac983f"
+    },
+    {
+      "path": "ko/guides/axes-and-cells/index.html",
+      "sha256": "6bee52453f0360cb4d307c819f07b752a0ca7780deb131764e96dcbeebd7501b"
+    },
+    {
+      "path": "ko/guides/review-the-reason/index.html",
+      "sha256": "2cfd5852f04aa61f87277646a761b4c03d4658a27ad05fe2a4c47a37eb91a928"
+    },
+    {
+      "path": "ko/guides/three-occupancy-projections/index.html",
+      "sha256": "8729a3c520c3a221a5a435ee6b77dcd54058bc98b08ea3c77cd0eb3cc6954eb9"
+    },
+    {
+      "path": "ko/guides/official-scope/index.html",
+      "sha256": "717b9ffd7edcf714ed624e870eb80ce3d4fbca4791cfeb480cc668e3fb84cb72"
+    },
+    {
+      "path": "ko/guides/saved-cases-a-b/index.html",
+      "sha256": "45ff92960c30a2f289ecc1a5b38cb56376fe76f9f175d3327d2cbcb1c5428247"
+    },
+    {
+      "path": "ko/guides/change-one-cell/index.html",
+      "sha256": "c2a8a5379b8ae8d373e2d92b7a6cb432b2d45112edaa0f9acc467f3d2928fe2f"
+    },
+    {
+      "path": "ko/guides/offline-records/index.html",
+      "sha256": "6791f885c1f78191cfc89e5deeaab159e906e395072c3343af83ef81fe483c1f"
+    },
+    {
+      "path": "ko/guides/counting-without-units/index.html",
+      "sha256": "941c0b69fc07afd92012750c77772f39da429ca92d50dc6bf3451cd92212a9f6"
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+[
+  {
+    "slug": "axes-and-cells",
+    "title": [
+      "좌표는 방향보다 먼저 정하세요",
+      "Define axes before comparing views"
+    ],
+    "intro": [
+      "격자를 편집하기 전에 X·Y·Z가 무엇을 뜻하는지 고정하면 화면을 오가도 같은 입체를 추적하기 쉽습니다.",
+      "Keep one axis convention across every view so each selected cell refers to the same part of the virtual solid."
+    ],
+    "sections": [
+      [
+        [
+          "세 축의 역할",
+          "이 노트에서는 X가 너비, Y가 깊이, Z가 높이입니다. 각 축의 좌표는0·1·2이며 격자 한 칸은 가상 단위입니다. 실제 치수 단위나 도면의 축척을 부여하지 않습니다. 먼저 원점을 하나 정하고 오른쪽·깊이·위쪽의 증가 방향을 말로 설명해 보세요."
+        ],
+        [
+          "Name each axis",
+          "Here X is width, Y is depth and Z is height. Coordinates run from 0 to 2 on each axis. One cell is a virtual unit, without millimetres or a drawing scale. Start by choosing an origin and explaining which direction increases each coordinate."
+        ]
+      ],
+      [
+        [
+          "한 칸을 세 좌표로 읽기",
+          "(2,0,1)은 X의 마지막 열, Y의 첫 줄, Z=1인 층에 놓인 한 칸입니다. 화면을 내려 다른 투영을 보아도 그 좌표는 바뀌지 않습니다. 그림이 놓인 위치와 입체의 좌표를 혼동하지 않는 것이 첫 연습입니다."
+        ],
+        [
+          "Read one cell",
+          "Cell(2,0,1) is in the last X column, first Y row and layer Z=1. Its coordinates stay the same when you scroll to another projection. Distinguish the position of a picture on screen from the coordinates of the solid."
+        ]
+      ],
+      [
+        [
+          "먼저 예측하고 편집하기",
+          "빈 격자에서 한 칸만 추가한 뒤, 세 투영에서 어느 두 좌표가 남을지 적어 보세요. 화면 결과와 예측을 비교하면 축을 바꾸어 읽는 오류를 찾기 쉽습니다. 속도보다 같은 좌표를 일관되게 읽는 데 집중하세요."
+        ],
+        [
+          "Predict before editing",
+          "Add a single cell to an empty grid. Write the two coordinates that should remain in each view before looking at the result. Compare prediction and display to find swapped-axis mistakes. Consistency matters more than speed."
+        ]
+      ]
+    ],
+    "example": [
+      "(2,0,1)은 정면(X,Z)에서(2,1), 평면(X,Y)에서(2,0), 우측(Y,Z)에서(0,1)에 표시됩니다.",
+      "For cell(2,0,1), the front shows(2,1), the top(2,0) and the right view(0,1)."
+    ],
+    "check": [
+      "같은 칸의 평면 투영에서 Z값을 찾을 수 있을까요?",
+      "Can the top occupancy view alone tell you this cell’s Z coordinate?"
+    ],
+    "answer": [
+      "없습니다. 평면의 두 축은 X·Y이므로 이 모형의 평면 채움만으로 높이를 구분할 수 없습니다.",
+      "No. The top view keeps X and Y; its occupied cells alone do not distinguish height."
+    ]
+  },
+  {
+    "slug": "three-occupancy-projections",
+    "title": [
+      "세 투영에서 사라지는 축",
+      "Which axis disappears in each view?"
+    ],
+    "intro": [
+      "이 도구의 투영은 채움 여부를 비교합니다. 실제 제도에서 사용하는 선과 치수의 모든 정보를 표현하지 않습니다.",
+      "These views compare occupied cells. They do not represent every line and dimension in an engineering drawing."
+    ],
+    "sections": [
+      [
+        [
+          "정면·평면·우측을 구분하기",
+          "정면X-Z는 +Y 방향에서 읽고, 평면X-Y는 −Z 방향에서 읽으며, 우측Y-Z는 −X 방향에서 읽습니다. 화면에 적힌 축과 시선 방향을 함께 확인하세요. 이 정의는 이 가상 모형의 읽기 약속이며 제도 규격의 대체물이 아닙니다."
+        ],
+        [
+          "Read the labels together",
+          "The front X-Z view looks along+Y, the top X-Y along−Z, and the right Y-Z along−X. Read both axis labels and viewing direction. This is the convention for this virtual model, rather than a substitute for drawing standards."
+        ]
+      ],
+      [
+        [
+          "겹쳐진 칸의 의미",
+          "시선 방향으로 한 칸이라도 있으면 투영의 해당 위치는 채워집니다. 그 뒤에 두 칸이 더 있어도 색은 한 번만 칠해집니다. 채움 면적을 보고 입체 칸 수를 그대로 세면 안 되는 이유입니다."
+        ],
+        [
+          "Overlapping cells",
+          "A projection cell is filled when at least one solid cell lies along that viewing line. Adding two more behind it does not fill the same position twice. This is why the number of coloured projection cells is not the number of solid cells."
+        ]
+      ],
+      [
+        [
+          "세 그림을 함께 보기",
+          "정면만 보고 생긴 가설을 평면과 우측으로 확인하세요. 그래도 입체가 항상 하나로 결정되지는 않습니다. 모형이 보여주는 정보와 잃는 정보를 함께 설명하는 것이 학습 목표입니다."
+        ],
+        [
+          "Use all three views",
+          "Check a hypothesis from the front against the top and right views. Even three occupancy views do not always determine a unique solid. The goal is to explain both the information retained and the information lost."
+        ]
+      ]
+    ],
+    "example": [
+      "(0,0,0)과(0,1,0)을 함께 채우면 정면에서는 같은(0,0) 한 위치로 겹칩니다. 평면에서는(0,0)과(0,1)이 구분됩니다.",
+      "Cells(0,0,0) and(0,1,0) overlap at one front position(0,0), but remain separate at top positions(0,0) and(0,1)."
+    ],
+    "check": [
+      "투영에 칠해진 한 칸은 항상 입체 한 칸을 뜻할까요?",
+      "Does one filled projection cell always mean exactly one solid cell?"
+    ],
+    "answer": [
+      "아닙니다. 시선 방향으로 겹친 여러 칸이 하나로 표시될 수 있습니다.",
+      "No. Several cells can overlap along the viewing direction."
+    ]
+  },
+  {
+    "slug": "change-one-cell",
+    "title": [
+      "한 칸만 바꿔 원인을 찾기",
+      "Change one cell to isolate the cause"
+    ],
+    "intro": [
+      "여러 칸을 한 번에 바꾸면 어떤 편집이 어느 투영에 영향을 주었는지 놓치기 쉽습니다.",
+      "Changing many cells at once makes it harder to explain which edit caused a projection to change."
+    ],
+    "sections": [
+      [
+        [
+          "기준 입체를 작게 잡기",
+          "빈 격자에(0,0,0)만 놓아 시작하세요. 기준 그림을 기록한 뒤 다른 한 칸을 추가합니다. 추가 전 세 투영 중 무엇이 달라질지 예측하고, 편집 후 실제 채움 위치와 비교하세요."
+        ],
+        [
+          "Start with a small baseline",
+          "Begin with only cell(0,0,0). Note the three views, then add one other cell. Predict which occupied positions will change and compare the result after editing. Small examples make the causal relationship easier to explain."
+        ]
+      ],
+      [
+        [
+          "변화가 없는 투영도 관찰하기",
+          "(0,1,0)을 추가하면 정면에서는 기존 칸과 겹칩니다. 정면의 색이 그대로라는 사실은 편집이 실패했다는 뜻이 아닙니다. 평면과 우측, 현재 입체 칸 수를 함께 보아 실제 변화가 있었는지 판단하세요."
+        ],
+        [
+          "An unchanged view matters",
+          "Adding(0,1,0) overlaps the existing cell in the front view. An unchanged front colour does not mean the edit failed. Check the top, right and current solid-cell count to understand what changed."
+        ]
+      ],
+      [
+        [
+          "제거 실험으로 다시 확인하기",
+          "추가한 한 칸을 제거해 처음 상태로 돌아오는지 보세요. 추가와 제거를 한 쌍으로 반복하면 관찰한 변화가 우연인지 확인하기 쉽습니다. 저장 사례를 기준으로 삼을 때는 현재 편집과 저장값을 구분하세요."
+        ],
+        [
+          "Reverse the experiment",
+          "Remove the added cell and check whether the original state returns. Pairing an addition with a removal tests your explanation. When a saved case provides the baseline, distinguish current edits from the saved copy."
+        ]
+      ]
+    ],
+    "example": [
+      "기준(0,0,0)에(0,1,0)을 추가하면 입체는2칸이지만 정면의 채움은1칸입니다.",
+      "Adding(0,1,0) to baseline(0,0,0) creates a two-cell solid with only one filled front cell."
+    ],
+    "check": [
+      "정면 색이 그대로이면 편집을 다시 여러 번 눌러야 할까요?",
+      "If the front colour stays the same, should you toggle the edit repeatedly?"
+    ],
+    "answer": [
+      "먼저 입체와 다른 두 투영을 확인하세요. 같은 시선에 겹쳐서 정면만 그대로일 수 있습니다.",
+      "First check the solid and the other two views. The edit may be hidden by overlap in the front."
+    ]
+  },
+  {
+    "slug": "same-views-different-solids",
+    "title": [
+      "8칸과7칸이 같은 그림을 만드는 이유",
+      "Why eight and seven cells can share the same views"
+    ],
+    "intro": [
+      "같은 세 방향 채움만으로 입체를 완전히 복원할 수 없다는 사실을 작은 예제로 확인합니다.",
+      "A small example shows why three occupancy projections can be insufficient to reconstruct a unique solid."
+    ],
+    "sections": [
+      [
+        [
+          "가득 찬 작은 입체",
+          "X·Y·Z 각각0과1만 사용하는2×2×2 입체는8칸입니다. 이 가상 모형의 각 투영은2×2의 네 위치가 모두 채워집니다. 먼저 여덟 좌표를 적어 보며 각 시선에 두 칸씩 겹친다는 점을 확인하세요."
+        ],
+        [
+          "Start with a full small block",
+          "A2×2×2 block using coordinates 0 and 1 contains eight cells. Each occupancy projection fills all four positions of a 2×2 square. Listing the eight coordinates reveals two cells along each viewing line."
+        ]
+      ],
+      [
+        [
+          "원점 한 칸을 제거하기",
+          "(0,0,0)을 빼면7칸이 남습니다. 정면의(0,0)에는(0,1,0)이, 평면의(0,0)에는(0,0,1)이, 우측의(0,0)에는(1,0,0)이 여전히 있습니다. 따라서 세 투영의 채움은 바뀌지 않습니다."
+        ],
+        [
+          "Remove the origin cell",
+          "Remove(0,0,0) and seven cells remain. Cell(0,1,0) still covers the affected front position,(0,0,1) covers the top, and(1,0,0) covers the right. Every occupancy position remains filled."
+        ]
+      ],
+      [
+        [
+          "모형의 결론을 넓히지 않기",
+          "이 예제는 채움 투영의 한계를 보여줍니다. 실제 도면에 치수·단면·숨은선 등 다른 정보가 있을 때도 똑같이 판단하라는 뜻이 아닙니다. 주어진 자료가 무엇인지부터 구분해야 합니다."
+        ],
+        [
+          "Keep the conclusion bounded",
+          "The example demonstrates a limit of occupancy projections. It does not say that engineering drawings containing dimensions, sections or hidden lines must remain ambiguous in the same way. Identify which information is actually provided before drawing a conclusion."
+        ]
+      ]
+    ],
+    "example": [
+      "8칸 입체A와 원점이 빠진7칸 입체B는 입체 칸 수가 다르지만 각 투영의 채움은4/9칸으로 같습니다.",
+      "The eight-cell solid and its seven-cell counterpart have different solid counts, but each view fills the same 4 of 9 grid positions."
+    ],
+    "check": [
+      "투영 세 장이 같으면 현재 입체 칸 수도 같다고 할 수 있을까요?",
+      "Do identical occupancy views imply an identical solid-cell count?"
+    ],
+    "answer": [
+      "그렇지 않습니다.8칸과7칸 예제가 반례입니다.",
+      "No. The eight-cell and seven-cell example is a counterexample."
+    ]
+  },
+  {
+    "slug": "saved-cases-a-b",
+    "title": [
+      "현재 편집과 사례A/B를 구분하기",
+      "Separate current edits from saved cases A/B"
+    ],
+    "intro": [
+      "저장된 두 사례를 비교할 때는 무엇을 바꾸었고 무엇을 보존했는지 명확해야 합니다.",
+      "A useful comparison keeps track of what changed and what remained saved."
+    ],
+    "sections": [
+      [
+        [
+          "저장은 독립 복사본",
+          "현재 입체를A에 저장하면 그 시점의 격자가A의 기준이 됩니다. 이후 현재 입체를 편집해도A가 자동으로 바뀌지 않습니다. B에도 별도로 저장해야 비교할 두 조건이 생깁니다."
+        ],
+        [
+          "A saved case is a separate copy",
+          "Saving the current solid to A makes that grid the saved baseline. Editing the current solid afterwards does not automatically replace A. Save B separately to create the second case for comparison."
+        ]
+      ],
+      [
+        [
+          "불러오기와 덮어쓰기",
+          "불러오기는 저장된 사례를 현재 편집으로 가져오는 동작입니다. 저장 버튼은 반대로 해당 사례를 현재 편집으로 교체합니다. 두 버튼의 방향을 혼동하면 기준 사례를 잃을 수 있으니 저장 직전 현재 칸 수를 확인하세요."
+        ],
+        [
+          "Load and replace have different directions",
+          "Loading brings a saved case into current editing. Saving replaces that case with the current edit. Confusing these directions can overwrite a useful baseline, so check the current cell count before saving."
+        ]
+      ],
+      [
+        [
+          "한 조건만 바꾼 비교",
+          "A에 기준을 저장하고 현재 격자에서 한 칸만 바꾼 뒤B에 저장해 보세요. 차이 칸 수와 세 투영을 같이 읽으면 입체 차이가 어느 방향에서 드러나는지 설명할 수 있습니다. 차이가 없는 투영도 결과의 일부입니다."
+        ],
+        [
+          "Compare one controlled change",
+          "Save a baseline to A, change one current cell, then save B. Read the different-cell count alongside all three views to explain which directions reveal the change. An unchanged view is part of the result too."
+        ]
+      ]
+    ],
+    "example": [
+      "A를1칸으로 저장한 뒤 현재를2칸으로 바꾸어도, A는 다시 저장하지 않으면1칸입니다.",
+      "If A was saved with one cell and the current solid becomes two cells, A stays at one until explicitly replaced."
+    ],
+    "check": [
+      "현재를 지운 뒤A를 불러오면 저장한A도 빈 격자가 되었을까요?",
+      "If you clear the current grid and then load A, should A also have become empty?"
+    ],
+    "answer": [
+      "현재만 지웠다면A는 유지됩니다. A에 빈 상태를 다시 저장한 경우에만 저장값이 바뀝니다.",
+      "Clearing only the current grid preserves A. A changes only if the empty state is explicitly saved to it."
+    ]
+  },
+  {
+    "slug": "layer-by-layer",
+    "title": [
+      "층을 바꾸며 공간을 읽는 순서",
+      "Read the solid layer by layer"
+    ],
+    "intro": [
+      "작은 격자라도 층을 섞어 읽으면 좌표를 잘못 옮길 수 있습니다. 한 층씩 확인하는 루틴을 만들어 보세요.",
+      "Even a small grid becomes confusing if layers are mixed up. Use a repeatable routine to inspect one layer at a time."
+    ],
+    "sections": [
+      [
+        [
+          "선택한Z부터 확인하기",
+          "층 편집은 선택한Z의 X-Y 격자를 보여줍니다. 다른Z 버튼으로 옮기는 동작과 한 칸을 켜거나 끄는 동작은 다릅니다. 편집 전 선택 강조와 좌표 눈금을 먼저 확인하세요."
+        ],
+        [
+          "Check the selected Z",
+          "Layer editing shows the X-Y grid at the chosen Z. Selecting a different Z and toggling a cell are separate actions. Check the selected control and coordinate labels before making an edit."
+        ]
+      ],
+      [
+        [
+          "아래에서 위로 기록하기",
+          "Z=0의 채움 좌표를 적고 Z=1, Z=2로 올라가세요. 입체를 다시 볼 때는 이 목록을 높이별로 쌓아 생각합니다. 중간 층의 한 칸을 빠뜨렸는지 확인하는 데도 도움이 됩니다."
+        ],
+        [
+          "Record from bottom to top",
+          "Write down the filled coordinates at Z=0, then move through Z=1 and Z=2. Read the solid by stacking those lists mentally. This routine also helps you notice a missed cell in an intermediate layer."
+        ]
+      ],
+      [
+        [
+          "투영과 층은 같은 그림이 아님",
+          "평면X-Y는 여러Z층을 겹친 채움입니다. 현재 선택한 한 층의 그림과 평면 투영을 같은 것으로 보면 높이 방향의 겹침을 놓칩니다. 차이를 찾을 때 모든Z층을 다시 확인하세요."
+        ],
+        [
+          "A layer is not the top projection",
+          "The top X-Y projection combines occupied cells from every Z layer. Treating the selected layer as the whole top view misses overlap through height. Check all layers when explaining a discrepancy."
+        ]
+      ]
+    ],
+    "example": [
+      "Z=0과Z=2에 같은X-Y 위치가 채워져도 평면에는 한 칸만 표시됩니다.",
+      "If the same X-Y position is filled at Z=0 and Z=2, the top view still shows one filled position."
+    ],
+    "check": [
+      "선택한Z=1이 비어 있으면 평면 투영도 빈 그림이어야 할까요?",
+      "If layer Z=1 is empty, must the top view also be empty?"
+    ],
+    "answer": [
+      "아닙니다. Z=0이나Z=2에 채워진 칸이 있으면 평면에 나타납니다.",
+      "No. Cells in Z=0 or Z=2 can still fill positions in the top view."
+    ]
+  },
+  {
+    "slug": "counting-without-units",
+    "title": [
+      "칸 수와 투영 채움 수를 구분하기",
+      "Distinguish solid counts from projection counts"
+    ],
+    "intro": [
+      "숫자 옆의 대상부터 읽으면 입체와 평면을 서로 다른 단위처럼 잘못 비교하는 일을 줄일 수 있습니다.",
+      "Read what each number counts before comparing quantities from a solid and its projected views."
+    ],
+    "sections": [
+      [
+        [
+          "현재 입체의칸 수",
+          "현재 입체의 칸 수는 켜진 가상 셀의 개수입니다. 격자가3×3×3이므로 가능한 위치는27개입니다. 실제 길이를 지정하지 않았으므로 이 숫자를 세제곱밀리미터나 실제 부피라고 부르지 않습니다."
+        ],
+        [
+          "The solid-cell count",
+          "The current count is the number of selected virtual cells. A3×3×3 grid has 27 possible positions. No physical cell length is assigned, so the count is not a volume in cubic millimetres."
+        ]
+      ],
+      [
+        [
+          "투영은9개 위치의 채움",
+          "각 투영은3×3의9개 위치 중 몇 곳이 채워졌는지를 나타냅니다. 같은 선상에서 겹친 칸은 하나로 합쳐집니다. 세 투영의 채움 수를 더한다고 입체 칸 수를 구할 수 있는 것은 아닙니다."
+        ],
+        [
+          "Each view counts up to nine positions",
+          "A projection reports filled positions within a 3×3 grid. Overlapping solid cells merge into one position. Adding the three projection counts does not, in general, give the number of solid cells."
+        ]
+      ],
+      [
+        [
+          "두 수를 함께 해석하기",
+          "입체 칸 수가 늘었는데 특정 투영 채움은 그대로라면 새 칸이 그 방향에서 기존 칸과 겹쳤을 수 있습니다. 두 수가 다르다는 사실을 오류로 단정하기보다 좌표를 확인해 설명해 보세요."
+        ],
+        [
+          "Interpret both counts together",
+          "If the solid count increases but one view stays unchanged, the new cell may overlap an existing one in that direction. Explain the coordinate relationship before treating different counts as an error."
+        ]
+      ]
+    ],
+    "example": [
+      "세로로 쌓은(0,0,0)·(0,0,1)은2칸입니다. 평면 채움은1, 정면과우측의 채움은각2입니다. 합계5는입체2칸과다릅니다.",
+      "Two stacked cells(0,0,0) and(0,0,1) give one filled top position and two each in front and right. Their sum is five, not the solid count of two."
+    ],
+    "check": [
+      "3개 투영의 채움 합계에 실제 부피 단위를 붙여도 될까요?",
+      "Can the sum of filled projection cells be labelled as a physical volume?"
+    ],
+    "answer": [
+      "안 됩니다. 서로 다른 평면의 겹침을 세는 값이고 실제 길이도 지정하지 않았습니다.",
+      "No. It counts overlaps in different planes and no physical cell size has been defined."
+    ]
+  },
+  {
+    "slug": "review-the-reason",
+    "title": [
+      "정답 다음에 판단 근거를 복습하기",
+      "Review the reason after the answer"
+    ],
+    "intro": [
+      "문제를 많이 푸는 것과 조건을 정확히 읽는 것은 같은 일이 아닙니다. 한 문항의 판단을 다시 설명해 보세요.",
+      "Completing many items is different from reading their conditions accurately. Practise explaining the reasoning behind one answer."
+    ],
+    "sections": [
+      [
+        [
+          "조건과 개념을 나누기",
+          "문항을 읽고 주어진 조건, 묻는 개념, 선택 근거를 세 줄로 나누어 적어 보세요. 그림이 있다면 실제로 표시된 정보만 이용합니다. 수록된 사례가 비슷해 보여도 조건이 달라질 수 있습니다."
+        ],
+        [
+          "Separate conditions from concepts",
+          "Write three short notes: the stated conditions, the concept being asked about, and the reason for your choice. Use only the information shown in a diagram. Similar-looking authored cases can still have different conditions."
+        ]
+      ],
+      [
+        [
+          "오답은 원인을 하나씩",
+          "오답을 바로 다시 누르기보다 용어 혼동, 조건 누락, 계산 순서, 그림 해석 중 어디에서 판단이 달라졌는지 확인하세요. 다음 복습 때 그 조건을 다시 확인하는 방식으로 기록을 사용합니다."
+        ],
+        [
+          "Give each mistake a cause",
+          "Before answering a missed item again, identify whether the problem was terminology, a missed condition, calculation order or diagram reading. Use the record to check that same issue during the next review."
+        ]
+      ],
+      [
+        [
+          "진도를 준비도로 읽지 않기",
+          "학습 진도는 수록 문제를 얼마나 풀었는지 보여주는 기록입니다. 공식 시험 준비도나 예상 합격률이 아닙니다. 반복된 관련 개념이 포함되므로500문항을500개의 독립 주제로 해석하지 마세요."
+        ],
+        [
+          "Progress is not a readiness score",
+          "Study progress records work through the included questions. It is not an official readiness assessment or predicted pass rate. Related concepts recur, so 500 authored questions do not mean 500 independent subjects."
+        ]
+      ]
+    ],
+    "example": [
+      "투영 문제를 틀렸다면 사라지는 축을 잘못 정했는지 먼저 확인하고, 한 칸 모형으로 같은 관계를 다시 읽어 보세요.",
+      "After a projection mistake, first check whether you removed the wrong axis. Revisit the relationship with a one-cell model."
+    ],
+    "check": [
+      "수록 문제를 전부 풀었다는 기록이 공식 전범위 숙달을 뜻할까요?",
+      "Does completing every included question prove mastery of the official full scope?"
+    ],
+    "answer": [
+      "아닙니다. 수록 범위의 풀이 기록이며 최신 공식 출제기준과 실기 준비는 별도로 확인해야 합니다.",
+      "No. It records activity within the included scope. Check the current official blueprint and practical preparation separately."
+    ]
+  },
+  {
+    "slug": "offline-records",
+    "title": [
+      "오프라인 학습과 기기 저장의 범위",
+      "What offline study and on-device records cover"
+    ],
+    "intro": [
+      "연결이 필요 없는 학습과 스토어·외부 링크를 구분하면 오프라인 환경을 준비하기 쉽습니다.",
+      "Distinguish on-device study from store services and external links when preparing to study without connectivity."
+    ],
+    "sections": [
+      [
+        [
+          "설치 후의 학습",
+          "포함된 문제·해설·개념 그림·복습·진도와 입체 노트는 설치 뒤 오프라인으로 이용합니다. 기기에서 비행기 모드만 켰는지보다 필요한 콘텐츠가 실제 설치되어 있는지가 중요합니다. 앱 다운로드와 업데이트는 스토어 연결이 필요합니다."
+        ],
+        [
+          "Study after installation",
+          "Included practice, explanations, concept diagrams, review, progress and the solid notebook work offline after installation. The content must actually be installed first. Store downloads and updates require a connection."
+        ]
+      ],
+      [
+        [
+          "기록은 현재 기기에",
+          "진도·북마크와 사례A/B는 앱의 기기 내 저장을 사용합니다. 이 앱이 제공하는 계정 기반 기기간 동기화나 별도 클라우드 복구를 가정하지 마세요. 앱 삭제나 저장 데이터 초기화 전에는 필요한 기록을 확인하세요."
+        ],
+        [
+          "Records stay on the device",
+          "Progress, bookmarks and saved cases use app storage on the current device. Do not assume account-based cross-device sync or a separate cloud restore service. Check records you need before deleting the app or resetting its data."
+        ]
+      ],
+      [
+        [
+          "외부 출처와 알림",
+          "공식 출처·지원 링크는 외부 웹페이지로 연결되므로 인터넷이 필요합니다. 알림은 선택 기능이고 권한과 운영체제 설정에 영향을 받습니다. 문제 내용은 기본 비공개이며, 기기 잠금 표시를 직접 확인한 뒤 공개 여부를 선택하세요."
+        ],
+        [
+          "External links and reminders",
+          "Official references and support links open external pages and need connectivity. Reminders are optional and depend on permissions and operating-system settings. Question text is private by default; check your device’s display settings before choosing to reveal it."
+        ]
+      ]
+    ],
+    "example": [
+      "연결 없이 사례A를 저장하고 앱을 다시 열어 확인할 수 있습니다. 같은 상태에서Q-net 링크를 열면 웹 연결이 필요합니다.",
+      "You can save case A and reopen the app offline. Opening the Q-net link in the same situation still requires web connectivity."
+    ],
+    "check": [
+      "오프라인 학습 지원이 공식 웹 출처도 연결 없이 열린다는 뜻일까요?",
+      "Does offline study support mean the official external source opens offline too?"
+    ],
+    "answer": [
+      "아닙니다. 앱에 포함된 학습과 외부 웹 이동은 다른 동작입니다.",
+      "No. Bundled learning and opening an external website are different operations."
+    ]
+  },
+  {
+    "slug": "official-scope",
+    "title": [
+      "공식 출처와 독립 연습의 역할",
+      "Separate official scope from independent practice"
+    ],
+    "intro": [
+      "앱이 제공하는 보조 연습과 자격시험의 공식 요구사항을 서로 다른 자료로 읽어야 합니다.",
+      "Read the app’s supplementary practice and the qualification’s official requirements as different resources."
+    ],
+    "sections": [
+      [
+        [
+          "시험 정보는 공식 페이지에서",
+          "Q-net 종목 페이지와 현재 출제기준·공개문제·수험자 안내를 확인하세요. 일정·수수료·요구사항은 변경될 수 있으므로 이 사이트에 고정 수치를 옮겨 최신 정보처럼 보여주지 않습니다. 해당 회차에 적용되는 자료인지도 확인해야 합니다."
+        ],
+        [
+          "Use official examination information",
+          "Check the Q-net qualification page, current blueprint, published practical tasks and candidate notices. Dates, fees and requirements can change; this site avoids copying fixed figures as if they remained current. Confirm which documents apply to your examination session."
+        ]
+      ],
+      [
+        [
+          "입체 노트의 좁은 범위",
+          "이 노트는 작은 가상 격자의 채움 투영을 편집·비교합니다. 실제CAD 실행, 완성 도면 제작, 숨은선·치수·공차·규격 적합성 판단이나 공식 실기 평가를 제공하지 않습니다. 시각적 관계를 확인한 뒤 실제 요구사항은 별도 자료로 학습하세요."
+        ],
+        [
+          "The notebook has a narrow purpose",
+          "The notebook edits and compares occupancy projections in a small virtual grid. It does not run CAD, produce a complete technical drawing, determine hidden lines, dimensions, tolerances or standards compliance, or mark an official practical task."
+        ]
+      ],
+      [
+        [
+          "비제휴 고지 읽기",
+          "이 앱과 사이트는RushLabs의 독립 학습 자료입니다. 정부·한국산업인력공단·Q-net의 공식 앱이 아니며 해당 기관의 제휴·승인·합격 보장을 의미하지 않습니다. 공식 출처 링크는 참조를 위한 연결입니다."
+        ],
+        [
+          "Read the non-affiliation notice",
+          "The app and site are independent RushLabs study materials. They are not official government, HRD Korea or Q-net products and do not imply affiliation, endorsement or a pass guarantee. Official links identify references."
+        ]
+      ]
+    ],
+    "example": [
+      "앱에서 투영 관계를 확인한 뒤, 실제 작업형 준비에 필요한 도구·자료·요구사항은 해당 회차의 공식 안내로 따로 점검합니다.",
+      "After practising projection relationships in the app, separately check official session guidance for the tools, documents and requirements of practical preparation."
+    ],
+    "check": [
+      "공식 링크가 있다는 이유로 앱 전체가 공식 승인 자료라고 볼 수 있을까요?",
+      "Does an official reference link make the whole app officially approved?"
+    ],
+    "answer": [
+      "아닙니다. 출처 식별과 기관의 제휴·승인은 별개입니다.",
+      "No. Identifying a reference is separate from institutional affiliation or endorsement."
+    ]
+  }
+]
